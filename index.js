@@ -33,7 +33,7 @@ async function run() {
 }
 run().catch(console.dir)
 app.get('/', (req, res) => {
-  res.send('Hello from SoloSphere Server on dell....')
+  res.send('Hello from SoloSphere Server on dell successfull....')
 })
 
 app.listen(port, () => console.log(`Server running on port ${port}`))
